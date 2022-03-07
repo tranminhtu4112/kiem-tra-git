@@ -8,4 +8,7 @@ btnsubmit.addEventListener("click", () => {
         alert("Đăng nhập thất bại")
 
 })
+document.querySelector('.img__btn').addEventListener('click', function() {
+    document.querySelector('.cont').classList.toggle('s--signup');
+  });
 
